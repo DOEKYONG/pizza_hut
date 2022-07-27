@@ -1,0 +1,45 @@
+.orderbox{
+	margin : 0 auto;
+	width : 52%;
+	border : 1px solid #eee;
+	background-color: #fff;
+	box-shadow: 5px 3px 3px #eeeeee;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	margin-top: 15px;
+	padding : 0px 30px 0px 20px;
+	
+	
+}
+.oimg_area{
+	width: 30%
+}
+.oinfo{
+	width: 50%;
+}
+.state_area{
+	width: 20%;
+}
+
+.menu_area{
+	font-size: 25px;
+}
+.topping_area{
+	font-size: 15px;
+	color: #999;
+}
+.odetail_area{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.menu_area{
+	margin-top: 10px;
+}
+#cancle{
+	width: 50%;
+	}
+	
+	.state_area{
+		text-align: center;
+	}

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+.btn_cpw{
+	width: 150px;
+	height: 45px;
+	margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	
+	
+}
+.passwordform{    
+	display: flex;
+    align-items: center;
+	
+}
+
+
+.ubtn_area{
+	display: flex;
+	justify-content: center;
+}
+.ubtn_area button{
+	width: 100px;
+	height: 40px;
+	background-color: red;
+	color: white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.ubtn_area button:hover{
+	background-color: orange;
+	color: black;
+}
+.infomenu_items{
+	margin-top: 30px;
+}
+.pbi{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.btn_cpw:hover{
+	background-color: red;
+	color: white;
+}
+#emailchk:hover{
+	background-color: red;
+	color: white;
+}
+.infomenu_items a:hover{
+	color: red;
+}

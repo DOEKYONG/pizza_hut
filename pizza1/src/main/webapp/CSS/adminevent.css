@@ -1,0 +1,38 @@
+.event{
+	margin-left: 300px;
+}
+.eventbtn{
+	background-color: white;
+	border: solid 1px red;
+	border-radius: 10px;
+	
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.menubtn{
+			background-color: gray;
+		color: white;
+		border: none;
+		border-radius: 10px;
+		width: 100px;
+}
+
+.addmenubtn{
+	margin-top:20px;
+	background-color: white;
+		border: solid 1px red;
+		border: none;
+		border-radius: 10px;
+		padding: 20px;
+}
+.listbtn{
+	background-color: white;
+	border: none;
+}
+
+.menuname{
+	width: 600px;
+}

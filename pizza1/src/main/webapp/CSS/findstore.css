@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.serach_area_f {
+	width: 100%;
+	display: flex;
+}
+.serach_area_f select {
+width: 20%;
+border-radius: 15px;
+	border : solid 1px #999;
+	box-shadow: 5px 3px 3px #eeeeee;
+}
+.serach_area_f #inputbox {
+	width: 300px;
+	border-radius: 15px;
+	border : solid 1px #999;
+	box-shadow: 5px 3px 3px #eeeeee;
+}
+#sbtn{
+    width: 40px;
+    background-color: orange;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+}

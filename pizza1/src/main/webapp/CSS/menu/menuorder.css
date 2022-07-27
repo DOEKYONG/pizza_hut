@@ -1,0 +1,126 @@
+@charset "UTF-8";
+p{
+	margin: 0
+}
+h2 {
+	padding-left: 40px;
+}
+.menuorder_wrap {
+	width: 70%;
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+	
+}
+.order_info{
+	width: 80%;
+	margin: 0 atuo;
+}
+.address_first{
+	display: flex;
+}
+.address_second{
+	display: flex;
+}
+.form_phone{
+	display: flex;
+	margin-top: 60px;
+}
+.inputarea{
+	margin-left : 20px;
+}
+
+.cuppon_wrap{
+	display: flex;
+}
+.inputarea input{
+	background-color : #f3f8f9;
+	width: 30vw;
+	height: 30px;
+	border : none;
+	border-bottom: 1px solid black;;
+}
+label{
+	font-weight: bold;
+	font-size: 22px;
+	padding-left: 80px;
+}
+.deco {
+	width: 100%;
+	height: 80px;
+	background-color: #eee;
+	border-top: 2px solid #999;
+	margin-top: 15px;
+}
+.address {
+	border-bottom: 2px solid #eee;;
+	padding-bottom: 60px;
+}
+.cuuponsel {
+	width: 350px;
+	height: 30px;
+}
+.payb_area button{
+	width: 150px;
+	height: 40px;
+	
+}
+.payb_area {
+	margin: 0 auto;
+	text-align: center;
+}
+.price_area{
+	width : 100%;
+	display: flex;
+	margin: 0 auto;
+	justify-content : center;
+	text-align: center;
+	font-size: 30px;
+}
+.lbl{
+	width: 30%;
+}
+.inputarea{
+	width: 70%;
+}
+.box_info{
+	margin-top: 30px;
+}
+.menu_boxorder{
+	
+	width : 98%;
+	border : 1px solid #eee;
+	background-color: #fff;
+	
+	box-shadow: 5px 3px 3px #eeeeee;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+.cuppon_wrap{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.cuuponsel{
+	border: none;
+	border-bottom: 1px solid black;
+	background-color: #00ff0000;
+}
+.price_area{
+	    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.deco{
+	margin-top: 60px;
+}
+.pay_wrap{
+	margin-top: 30px;
+}
+.payb_area{
+	padding-top:30px;
+}
+.bottom_area{
+	margin-bottom: 80px;
+}

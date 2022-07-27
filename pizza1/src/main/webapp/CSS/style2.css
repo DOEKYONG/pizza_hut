@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@import "signup.css";
+@import "login.css";
+@import "findid.css";
+@import "findpassword.css";
+@import "addorder.css";
+@import "infomenu.css";
+@import "noticewrite.css";
+@import "noticelist.css";
+@import "noticeview.css";
+@import "mupdate.css";
+@import "qview.css";
+@import "delete.css";
+@import "order.css";
+.home_wrap{
+	display: flex;
+	justify-content:center;
+	flex-direction: column;
+}

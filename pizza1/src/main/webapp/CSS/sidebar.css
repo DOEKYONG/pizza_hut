@@ -1,0 +1,31 @@
+@charset "UTF-8";
+.sidebar{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	position: absolute;
+	top : 300px;
+
+	position: fixed;
+	z-index: 10;
+	
+
+}
+
+.sidebar_item {
+	border-bottom : solid white 1px;;
+	text-align : center;
+	width: 100px;
+	height: 80px;
+	background-color: #eeeeee;
+	display: flex;
+	flex-direction : column;
+	justify-content: center;
+	align-content: center;
+	border-radius: 15px;
+	margin-top: 10px;
+	
+}
+.sidebar_item i {
+	margin-top: 5px;
+}

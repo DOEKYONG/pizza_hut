@@ -1,0 +1,42 @@
+@charset "UTF-8";
+.container1{
+	    display: flex;
+    width : 100%;
+    justify-content: center;
+    flex-direction: column;
+
+}
+h1{
+	text-align: center;
+}
+.box {
+
+	border : 1px solid #eee;
+	background-color: #fff;
+	
+	box-shadow: 5px 3px 3px #eeeeee;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 15px;
+}
+table {
+	width : 80%;
+	border: 1px solid #000;
+	border-spacing:0px 0px;
+}
+td {
+	width : 11.1%;
+	border-bottom : 1px solid #000;
+	border-left: none;  
+	border-right: none;
+	
+
+}
+.obox{
+	border : 1px solid #eee;
+}
+.obox2{
+	border-bottom : 1px solid #eee;
+}

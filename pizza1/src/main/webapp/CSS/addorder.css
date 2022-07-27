@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+.ordersignup_wrap{
+	display: flex;
+	justify-content: center;
+	align-items: cetner;
+	flex-direction: column;
+	    margin: 0 auto;
+	flex-wrap: nowrap;
+	
+}
+.form_info{
+		border-bottom: solid 1px #eeeeee;
+	vertical-align: middle;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+#femailselect {
+	margin-left: 15px;
+}
+
+#fidck , #femailchk{
+	width: 100px;
+	height: 40px;
+	border-radius: 35px;
+	margin-left: 15px;
+	margin-right : 25px;
+	background-color: rgba(255, 175, 36, 1);
+	border: none;
+	font-size: 15px;
+}
+
+
+.address{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.address_first{
+	display: flex;
+}
+.address_second{
+	    padding-left: 171px;
+}
+#addressbtn {
+	   width: 100px;
+    height: 40px;
+    border-radius: 35px;
+    margin-left: 15px;
+    margin-right: 25px;
+    background-color: rgba(255, 175, 36, 1);
+    border: none;
+  
+}
+.button_area1 {
+	margin-left: 460px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}

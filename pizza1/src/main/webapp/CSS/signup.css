@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+
+.container1{
+	
+    display: flex;
+    justify-content: center;
+    background-color: #f3f8f9;
+    flex-direction: column;
+  
+}
+
+.signup_wrap{
+	
+	display: flex;
+	justify-content: center;
+	align-items: cetner;
+	flex-direction: column;
+	    margin: 0 auto;
+	flex-wrap: nowrap;
+}
+
+.signup_box{
+	width: 100%;
+    margin: 0 auto;
+    border: 1px solid #eeeeee;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: white;
+    
+	
+}
+.form_info{
+	
+	border-bottom: solid 1px #eeeeee;
+	vertical-align: middle;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	
+	
+}
+.lbl {
+	width :130px;
+	flex-shrink:0;
+	padding-left: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.inputarea{
+	padding-left: 100px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#idck , #emailchk{
+	width: 100px;
+	height: 40px;
+	border-radius: 35px;
+	margin-left: 15px;
+	margin-right : 25px;
+	background-color: rgba(255, 175, 36, 1);
+	border: none;
+	font-size: 15px;
+	
+	
+}
+
+ .button_area1 #btn_signup {
+	width: 180px;
+	height: 50px;
+	color: white;
+	background-color: red;
+	border-radius: 50px;
+	border: none;
+	font-weight: bold;
+}
+ .button_area1 #btn_signup:hover{
+	background-color: orange;
+	
+}
+
+
+.form_info input {
+	width: 380px;
+	height: 40px;
+	border-radius: 12px;
+	border:  solid 1.2px #eeeeee;
+	box-shadow: 5px 3px 3px #eeeeee;
+	
+}
+.email input{
+	width: 200px;
+	height: 40px;
+	}
+.email select{
+	width: 200px;
+	height: 40px;
+	border-radius: 12px;
+}
+.birth{
+	border: none;
+	vertical-align: middle;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.birth select{
+	width: 150px;
+	height: 40px;
+	border-radius: 12px;
+	text-align: center;
+	
+	border:  solid 1.2px #eeeeee;
+	box-shadow: 5px 3px 3px #eeeeee;
+	
+}
+.sbirth select{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.pwf{
+	display: flex;
+	
+	
+}
+.pwc{
+	flex-direction: column;
+	align-items: flex-start;
+}
+#emailselect{
+	margin-left: 15px;
+   
+}
+.container1 span{
+	font-weight: bold;
+	font-size: 15px;
+}
+.button_area1{
+	margin-left: 460px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+

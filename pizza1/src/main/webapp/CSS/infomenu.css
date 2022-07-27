@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.infomenu_wrap {
+	margin: 0 auto;
+	
+}
+
+.infomenu_items {
+	display: flex;
+	height: 60px;
+	border: solid 1px #eeeeee;
+	display: flex;
+	
+	border-radius: 10px;
+	background-color: white;
+	align-items: center;
+
+	
+	
+}
+.infomenu_items span{
+	flex-shrink: 0;
+	margin-left: 93.198px;
+	margin-right: 93.198px;
+	font-size: 20px;
+	font-weight: normal;
+	color: red;
+}
+.infomenu_items span a{
+	color: rgba(0,0,0,0.8);
+}
+.adminmenu {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 5px;
+}
+.adminmenu span {
+	margin-right: 10px;
+}

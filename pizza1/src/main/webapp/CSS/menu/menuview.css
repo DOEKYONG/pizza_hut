@@ -1,0 +1,290 @@
+.menuview_wrap{
+	display: flex;
+	
+
+margin : 0 auto;
+	margin-top: 50px;
+	width: 60vw;
+	
+	
+}
+
+.container1{
+	
+    display: flex;
+    width : 100%;
+    justify-content: center;
+    background-color: #f3f8f9;
+    flex-direction: column;
+  
+}
+
+.menu_box{
+	width: 100%;
+    margin: 0 auto;
+    border: 1px solid #eeeeee;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+    
+	
+}
+
+.img_area{
+	width : 50%;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #eee;
+	border-radius: 15px;
+	margin: 30px;
+	justify-content: center;
+	height: 900px;
+	
+	
+}
+.img_area img {
+	margin: 0 auto;
+	width : 60%;
+	    margin-top: 60px;
+	
+	
+}
+.menu_ifno {
+	width : 50%;
+	display: flex;
+	flex-direction: column; 
+	margin: 0 auto;
+	
+}
+.menu_ifno h4 {
+	font-size: 18px;
+	word-wrap:break-word;
+}
+
+.edge_area ul li, .size_area ul li{list-style-type: none; float: left;
+  
+
+}
+.edge_area ul {
+	white-space:nowrap;
+	 
+}
+.edge_area li {
+	 margin: 5px;
+}
+
+
+.edge_area{
+	margin: 0 auto;
+	margin-right: 15px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+	
+}
+.menu_text{
+	
+	margin-top: 40px;
+	margin-left:10px;
+	margin-right: 10px;
+	
+}
+.menu_text h4{
+	margin-top: 20px;
+	font-weight: normal;
+}
+.imgrb{
+	width: 110px;
+	height: 200px;
+	border:solid 1px #eee;
+	border-radius: 15px;
+}
+.size_area{
+	display: flex;
+}
+.sizebox{
+	display: flex;
+	margin-top: 30px;
+}
+.sizebox input{
+	margin-top: 5px;
+
+}
+
+#size{
+	color: red;
+	text-align: left;
+	font-weight: bold
+	
+}
+.size_area li {
+	 margin: 15px;
+}
+.size_info{
+	text-align: left;
+	margin-left:10px;
+	font-size: 20px;
+}
+.count_area1 input, button{
+	background-color: white;
+	border : solid 1px #eee;
+}
+.count_area1 button {
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+
+}
+.count_area1 input{
+	width: 80px;
+	height: 50px;
+	text-align: center;
+}
+
+.minus{
+	border-top-left-radius : 7px;
+	border-bottom-left-radius : 7px;
+}
+.plus {
+	border-top-right-radius : 7px;
+	border-bottom-right-radius : 7px;
+}
+.count_area{
+	margin-top: 30px;
+}
+.count_area1{
+	text-align : center;
+	margin-right: 20px;
+}
+.button_area{
+	margin-top: 30px;
+	   
+}
+.button_area1{
+	text-align : center;
+	margin-right: 20px;
+}
+.order{
+	width: 150px;
+	height: 60px;
+	background: red;
+	color: white;
+	border-radius: 12px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+}
+.edge_title{
+	margin-left: 10px;
+	margin-top: 20px;
+	
+}
+
+
+
+
+
+td.delivery{
+	cursor: pointer;
+	text-align: center;
+	 border-bottom: 1px solid #eeeeee;
+}
+
+td.delivery:hover {
+       border-bottom: 1px solid red;
+   }
+   
+.tabletr{
+	height: 600px;
+}
+
+.bottom_area{
+	background-color: red;
+	border: none;
+}
+
+input:focus {outline:none;}
+
+.상세주소{
+	margin-top: 5px;
+}
+
+.주소input{
+	width: 100%;
+	display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  border:none;
+  border-bottom: 1px solid #eeeeee;
+  padding: 8px;
+  border-radius: 4px;
+}
+.상세주소input{
+	width: 100%;
+	display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  border:none;
+  border-bottom: 1px solid #eeeeee;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.tableresult{
+	border: 1px solid #eeeeee;
+	border-radius: 10px;
+	height: 380px;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+	overflow: scroll;
+	
+}
+.findstore{
+	height: 40px;
+	padding: 10px;
+}
+
+.nonedelivery{
+	height: 40px;
+	padding: 10px;
+	outline: none;
+	border: none;
+}
+
+.searchimg{
+	width: 20px;
+}
+
+.searchbtn{
+	border: none;
+	background-color: transparent;
+}
+
+.searchcontainer{
+  padding-left: 100px;
+  border-bottom: 1px solid #eeeeee !important;
+  width: 900px;
+  text-align: center;
+}
+
+.searchcontainer input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width: 1000px;
+}
+
+.findstorebtn{
+	width: 100%;
+	padding: 20px;
+	text-align: left;
+	border: 1px solid gray;
+	border-radius: 15px;
+	background-color: white;
+}
+
+ div.findstore:hover { background-color: #eeeeee; 
+ border-radius:20px;
+ cursor: pointer;}

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.footer{
+	
+	background-color: #eeeeee;
+	display: flex;
+	justify-content: center;
+	
+	
+}
+.footer_logo img{
+	width: 200px;
+	
+	    
+}
+.footer_text{
+	margin-top: 45px;
+	margin-left: 50px;
+}
+
+.sns{
+	margin-top: 120px;
+	margin-left: 50px;
+	color: orange;
+}
+.sns i {
+	color: orange;
+}
